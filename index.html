@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devic-width, initial-scale=1.0">
+    <title>Biography</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 89vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            height: 90vh;
+            box-shadow: 0 20px 60px, rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            display: block;
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+
+        }
+
+        .info-section {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .info-item {
+            margin: 15px 0;
+            padding: 12px;
+            background: #f7fafc;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .contact-link:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <img src="image.jpg" alt="Profile Picture" class="profile-image">
+
+        <h1>Daniyal hassan laghari</h1>
+        <div class="info-section">
+            <div class="info-item">
+                <div class="info-label">Caste</div>
+                <div class="info-value">LAGHARI</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">Hometown</div>
+                <div class="info-label">Jatoi</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">Education</div>
+                <div class="info-value">Studiying in ALHAMD ACADEMY</div>
+
+            </div>
+        </div>
+        <a href=mailto:dk360579@gmail.com class="contact-link">Contact Me</a>
+    </div>
+
+</body>
+
+</html>
